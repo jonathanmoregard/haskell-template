@@ -1,7 +1,6 @@
 module Main (main) where
 
-import Gauge.Main
-
+import qualified Gauge.Main as Gauge
 
 main :: IO ()
-main = defaultMain [bench "const" (whnf const ())]
+main = Gauge.defaultMain [Gauge.bench "const" (Gauge.whnf const "a")]

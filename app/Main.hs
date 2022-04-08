@@ -1,7 +1,7 @@
 module Main (main) where
 
-import HaskellTemplate (someFunc)
-
+import Library (someFunc)
 
 main :: IO ()
-main = someFunc
+main =
+  someFunc

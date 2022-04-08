@@ -1,0 +1,5 @@
+#!/bin/bash 
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+pushd "${SCRIPT_DIR}" || exit
+nix develop --command code .
+popd || exit

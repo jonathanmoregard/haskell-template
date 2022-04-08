@@ -1,0 +1,10 @@
+{
+  "filewatcher.commands": [
+    {
+      "match": "\\.hs",
+      "isAsync": true,
+      "cmd": "cabal test",
+      "event": "onFileChange"
+    }
+  ]
+}

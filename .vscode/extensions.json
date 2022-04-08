@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "haskell.haskell",
+    "justusadam.language-haskell",
+    "berberman.vscode-cabal-fmt",
+    "jnoortheen.nix-ide",
+    "aaronduino.nix-lsp",
+    "sjurmillidahl.ormolu-vscode",
+    "appulate.filewatcher",
+    "esbenp.prettier-vscode"
+  ]
+}
